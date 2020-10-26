@@ -207,7 +207,7 @@ properties:
 
   GCP_CLIENT_CUSTOM_IMAGE_FAMILY_NAME:
     type: string
-    default: ixia-ixload-client-9-10-0
+    default: ixia-windows-client-gcp-9-10-0-311
 
   GCP_CLIENT_MACHINE_TYPE:
     type: string
@@ -240,7 +240,7 @@ properties:
 
   GCP_VMONE_CUSTOM_IMAGE_FAMILY_NAME:
     type: string
-    default: ixia-virtual-test-appliance-9-10-0-346
+    default: ixia-virtual-test-appliance-9-10-0-328
 
   GCP_VMONE_MACHINE_TYPE:
     type: string
