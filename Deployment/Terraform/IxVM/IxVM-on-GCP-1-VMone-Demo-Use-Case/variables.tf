@@ -32,6 +32,13 @@ variable "GCP_PROJECT_TAG" {
 	default = "open-ixia-gcp-ixload"
 }
 
+variable "GCP_MGMT_FIREWALL_RULE_SOURCE_IP_RANGES" {
+	type = list(string)
+	default = [
+		"1.1.1.1/32"
+	]
+}
+
 variable "GCP_VMONE_MACHINE_TYPE" {
 	type = string
 	default = "c2-standard-8"
