@@ -240,11 +240,11 @@ properties:
 
   GCP_VMONE_CUSTOM_IMAGE_FAMILY_NAME:
     type: string
-    default: ixia-virtual-test-appliance-9-10-0-328
+    default: ixia-virtual-test-appliance-9-10-119-1
 
   GCP_VMONE_MACHINE_TYPE:
     type: string
-    default: c2-standard-4
+    default: c2-standard-16
 
   GCP_VMONE1_IFACE_ETH0_PUBLIC_IP_ADDRESS_NAME:
     type: string
