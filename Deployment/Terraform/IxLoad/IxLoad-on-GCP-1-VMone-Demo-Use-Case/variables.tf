@@ -1,10 +1,11 @@
 terraform {
-  experiments = [variable_validation]
+	required_version = ">= 0.12.24"
+	experiments = [variable_validation]
 }
 
 variable "GCP_PROJECT_NAME" {
 	type = string
-	default = "ixvm-261016"
+	default = "open-ixia"
 }
 
 variable "GCP_REGION_NAME" {
